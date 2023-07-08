@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Syne:wght@400;500;600;700;800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* header information CSS */
+header{
+    background-color: #FFF8F3;
+}
+.header-info{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10px 0px;
+}
+.logo h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.manu-item{
+    display: flex;
+    align-items: center;
+
+}
+.manu-item li{
+    list-style: none;
+    margin-left: 60px;
+
+}
+.manu-item li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 18px;
+}
+.manu-item li:last-child{
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 15px 30px;
+}
+.manu-item li:last-child a{
+    color: #fff;
+}
+/* Intro section design  */
+.header {
+    background-color: #FFF8F3;
+    background-image: url(images/Group_12.png), url(images/Developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left center;
+}
+.banner{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 50px 0px 350px;
+}
+.banner-contect{
+    width: 600px;
+}
+.banner-contect h3{
+    font-size: 45px;
+    color: #474747;
+}
+.banner-contect h1{
+    font-size: 85px;
+    color: #181818;
+}
+.banner-contect p{
+    font-size: 18px;
+    color: #757575;
+    margin: 30px 0px;
+}
+/* .banner img{
+    width: 500px;
+} */
+.btn, .contact-btn {
+    background: #FD6E0A;
+    color: #fff;
+    padding: 20px 35px;
+    border: none;
+    margin-right: 25px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-btn{
+    background: transparent;
+    color: #FD6E0A;
+    border: 2px solid #FD6E0A;
+}
+
+/* Main content Css */
+main{
+    width: 1200px;
+    margin: 0px auto
+}
+
+/* about section css */
+.about{
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 100px;
+    margin: 100px 0px;
+    border-radius: 10px;
+}
+.about-me h2{
+    font-size: 35px;
+}
+.about-me p {
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 25px 0px;
+    padding: 0px 50px;
+}
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    margin-top: 35px;
+    color: #474747;
+}
+p.info-title {
+    margin-bottom: 15px;
+    color: #757575;
+}
+
+/* What I do design  */
+.what-i-do{
+    text-align: center;
+    padding: 0px 100px;
+}
+.what-title{
+    font-size: 35px;
+}
+.what-description{
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 25px 0px;
+    
+}
+.skill-container {
+    display: flex;
+    column-gap: 50px;
+}
+.skill-info {
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 20px 5px #0000001c;
+}
+.skill-info h3 {
+    margin: 20px 0px;
+}
+.skill-info p {
+    color: #757575;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+/* Education and Job experience */
+.resume{
+    margin: 150px 0px;
+}
+section.resume > h1 {
+    margin-bottom: 100px;
+    color: #181818;
+}
+.edu-and-job-title{
+    text-align: center;
+    font-size: 35px;
+}
+.edu-title, .job-heading {
+    color: #474747;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.edu-degree, .job-title {
+    font-size: 21px;
+    color: #474747;
+    margin-bottom: 15px;
+}
+.edu-institute, .job-institute {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.edu-description, .job-description {
+    font-size: 16px;
+    line-height: 25px;
+    color: #757575;
+}
+.edu-and-job {
+    column-gap: 100px;
+    display: flex;
+}
+.edu-content, .job-content {
+    margin: 25px 0px;
+}
+
+/* Footer design */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 100px 0px;
+}
+.footer-title {
+    font-size: 30px;
+    color: #181818;
+    margin-bottom: 50px;
+}
+.lets-connect p{
+    font-size: 15px;
+    color: #474747;
+    margin: 0px 50px 50px 0px;
+}
+.contact-form input, textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 5px;
+}
+.lets-connect i {
+    color: #FD6E0A;
+    margin-right: 25px;
+}
